@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Milan Maduwantha – CAD Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f2f5;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8em;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .project {
+            background: #fff;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .project:hover {
+            transform: translateY(-5px);
+        }
+        .project img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .project-content {
+            padding: 20px;
+        }
+        .project-content h3 {
+            margin-top: 0;
+            color: #1e3c72;
+        }
+        .project-content p {
+            font-size: 0.95em;
+            line-height: 1.5em;
+        }
+        .project-content a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #fff;
+            background: #1e3c72;
+            padding: 10px 15px;
+            border-radius: 8px;
+            transition: background 0.3s ease;
+        }
+        .project-content a:hover {
+            background: #2a5298;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Milan Maduwantha</h1>
+        <p>3D CAD & Onshape Portfolio</p>
+    </header>
+
+    <div class="container">
+        <h2 style="text-align:center; margin-bottom: 40px; color: #1e3c72;">Featured Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="https://via.placeholder.com/400x200.png?text=Project+1" alt="Project 1 Image">
+                <div class="project-content">
+                    <h3>Project 1 – 3D Model 1</h3>
+                    <p>This project showcases a 3D CAD model created using Onshape, demonstrating skills in parametric design and assembly.</p>
+                    <a href="https://cad.onshape.com/documents/93820e0a275680ff7f5709fd/w/22e3fb0d3e7842d63fe513e7/e/549d53204fec5ebe7d4c6ba2" target="_blank">View Project</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="https://via.placeholder.com/400x200.png?text=Project+2" alt="Project 2 Image">
+                <div class="project-content">
+                    <h3>Project 2 – 3D Model 2</h3>
+                    <p>This project demonstrates advanced CAD modeling techniques and assembly coordination in Onshape.</p>
+                    <a href="https://cad.onshape.com/documents/e86533ca294457c4f0da0ad6/w/893f8e22ef29d9234ba50090/e/23ed05e39773b66943f1b571" target="_blank">View Project</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="https://via.placeholder.com/400x200.png?text=Project+3" alt="Project 3 Image">
+                <div class="project-content">
+                    <h3>Project 3 – 3D Model 3</h3>
+                    <p>A detailed CAD model built in Onshape, showcasing design precision, part relationships, and assembly workflow.</p>
+                    <a href="https://cad.onshape.com/documents/2fae3e49484ffab4e78b9434/w/0be9fcc354b0c63f8b3d4441/e/905decd67aa0f47d6f3c71b1" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
